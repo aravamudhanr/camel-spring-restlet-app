@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "serverScheme": {
+      "type": "string"
+    },
+    "serverHost": {
+      "type": "string"
+    },
+    "serverPort": {
+      "type": "integer"
+    },
+    "serverUserName": {
+      "type": "string"
+    },
+    "serverPassword": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "serverScheme",
+    "serverHost",
+    "serverPort",
+    "serverUserName",
+    "serverPassword"
+  ]
+}
